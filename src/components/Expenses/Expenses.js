@@ -1,8 +1,9 @@
-import Card from "./Card";
+import React from 'react';
+import Card from "../UI/Card";
 import ExpenseItem from "./ExpenseItem";
 import "./Expenses.css";
 
-function Expenses() {
+const Expenses = () => {
   const expenses = [
     {
       id: "e1",
